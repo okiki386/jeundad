@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-image: url(./assets.jeun/image\ copy\ 4.png);
+}
+.maincontainer .alert{
+    width: 850px;
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    color: orange;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: 600;
+    size: 11px;
+    
+}
+.maincontainer .for{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    width: 1000%;
+    margin-right: 180PX;
+    font-weight: 600;
+}
+.maincontainer .header{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.maincontainer .header .image{
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 69px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+}
+.maincontainer .header .nav{
+    margin-top: 40px;
+    margin-left: 100px;
+    justify-content: space-between;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.maincontainer .header .nav .home{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.maincontainer .header .nav img{
+    width: 24px;
+    height: 24px;
+}
+.maincontainer .image{
+    width: 901px;
+    height: 960px;
+}
+.maincontainer .image img{
+    width: 800px;
+    height: 800px;
+    margin-left: 610px;
+    top: 0px;
+    bottom: 800px;
+    position: absolute;
+}
+.maincontainer .text{
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 45px;
+}
+.maincontainer .text span{
+    color: #FF8801;
+}
+.maincontainer .at{
+    position: absolute;
+    top: 400px;
+    font-weight: 500;
+    margin-left: 45px;
+    font-size: large;
+}
+.maincontainer .order{
+    position: absolute;
+    top: 500px;
+    margin-left: 45px;
+   
+}
+.maincontainer .order button{
+    padding: 20px;
+    width: 150px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #000000;
+    background-color: #FF8801;
+    font-size: 17px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.maincontainer .hero p{
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 990px;
+    margin-left: 160px;
+}
+.maincontainer .img{
+    height: 250px;
+    width: 900px;
+    margin-left: 160px;
+    background-color: #EDEAE0; 
+    position: absolute;
+    top: 1040px;
+}
+.maincontainer .img .pic{
+    height: 171px;
+    gap: 15px;
+    background-color: #EDEAE0;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.maincontainer .hot{
+    position: absolute;
+    top: 1400px;
+    margin-left: 160px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.maincontainer .food{
+    width: 900px;
+    height: 780px;
+    position: absolute;
+    top: 1450px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.maincontainer .food img{
+    width: 256px;
+    height: 292px;
+    gap: 25px;
+}
+.maincontainer .food p{
+    font-size: 60px;
+    margin-left: 70px;
+}
+.maincontainer .food span{
+    font-weight: 800;
+    color: #FF8801;
+    font-size: larger;
+    margin-left: 80px;
+}
+.maincontainer .food img{
+    width: 256px;
+    height: 292px;
+    gap: 25px;
+}
+.maincontainer .food p{
+    color: #000000;
+    font-size: 30px;
+    margin-left: 70px;
+}
+.maincontainer .food span{
+    font-size: larger;
+    margin-left: 80px;
+}
+.maincontainer .jumia{
+    margin-top: 1200px;
+}
+.maincontainer .jumia img{
+    width: 100%;
+    height: 100%;
+}
+.maincontainer .footer{
+    margin-top: 80px;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.maincontainer .footer img{
+    color: white;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.maincontainer .footer p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.maincontainer .footer .visa{
+    margin-bottom: 60px;
+}
+.maincontainer .footer .quick{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.maincontainer .footer .quick .tag{
+    font-size: 15px;
+    margin-top: 80px;
+}
+.maincontainer .footer .quick .copy{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 130px;
+}
+.maincontainer .footer .news{
+    margin-left: 80px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.maincontainer .footer .news .to{
+    font-size: 15px;
+}
+.maincontainer .footer .news .form{
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    background-color: #fb8500;
+    color: #000000;
+    font-weight: 900;
+    margin-left: 120px;
+    margin-top: 20px;
+}  
+.maincontainer .footer .form button{
+    padding: 8px;
+    background-color: #fb8500;
+} 
+.maincontainer .footer .news .privacy{
+    font-size: 15px;
+    margin-top: 180px;
+    margin-left: 290px;
+
+}
+
